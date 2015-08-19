@@ -1,0 +1,46 @@
+body {
+margin: 0;
+}
+
+.header-section {
+	position: fixed;
+	width: 100%;
+	background: whitegreen;
+	padding: 10px 20px;
+
+	/* flex */
+	display: flex;
+	flex-direction: rows;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.MainMenu {
+	height: 100%;
+}
+.MainMenu-list {
+	margin: 0;
+	padding: 0;
+	width: 400px;
+	height: 100%;
+
+	/* flex */
+	display: flex;
+	align-content: strech;
+	flex-direction: rows;
+	justify-content: space-between;
+}
+.MainMenu-item {
+	list-style: none;
+
+}
+
+.MainMenu-item a::after {
+	content: "-";
+
+
+}
+
+h1 {
+	margin: 0;
+}
